@@ -1,0 +1,105 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/atkinson-hyperlegible-next';
+
+/*
+ * Mundo «Perfil de suelo» (.impeccable/surfaces/src-views-mapview-vue.md).
+ * El color vive en el mapa y en los datos; el chrome es tinta, gley y la barra húmica.
+ */
+@theme {
+  --font-sans: 'Atkinson Hyperlegible Next Variable', system-ui, sans-serif;
+
+  --color-humus: #2a1e16;
+  --color-humus-raised: #3a2a1f;
+  --color-on-humus: #efe9df;
+  --color-on-humus-soft: #c9bcab;
+  --color-gley: #dce1da;
+  --color-gley-rule: #c6cdc3;
+  --color-gley-line: #b9c1b6;
+  --color-paper: #f4f6f2;
+  --color-ink: #1c1a17;
+  --color-ink-soft: #4b4a43;
+  --color-ochre: #b5772e;
+  --color-ochre-wash: #efe3cf;
+  --color-oxide: #9c3b22;
+  --color-oxide-wash: #f3dcd4;
+  /* Selección en el mapa (rojo vivo sobre halo blanco); el ocre queda para el foco de la interfaz. */
+  --color-selection: #ff1a1a;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@layer base {
+  html,
+  body,
+  #app {
+    height: 100%;
+  }
+
+  body {
+    background: var(--color-gley);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-variant-numeric: tabular-nums;
+    -webkit-font-smoothing: antialiased;
+    caret-color: var(--color-ochre);
+  }
+
+  ::selection {
+    background: var(--color-ochre);
+    color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-ochre);
+    outline-offset: 2px;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-gley-line) transparent;
+  }
+}
+
+/* Controles de MapLibre en el vocabulario del visor. */
+.maplibregl-ctrl-group {
+  border-radius: 6px !important;
+  box-shadow: 0 1px 3px rgb(28 26 23 / 0.18) !important;
+  border: 1px solid var(--color-gley-line);
+}
+
+.maplibregl-ctrl-group button {
+  width: 36px !important;
+  height: 36px !important;
+}
+
+.maplibregl-ctrl-scale {
+  border-color: var(--color-ink) !important;
+  color: var(--color-ink) !important;
+  background: rgb(244 246 242 / 0.85) !important;
+  font: 12px var(--font-sans) !important;
+}
+
+.maplibregl-ctrl-attrib {
+  font: 11px var(--font-sans);
+  color: var(--color-ink-soft);
+}
+
+/* Momento de movimiento único: los horizontes se depositan de arriba hacia abajo. */
+@keyframes horizon-settle {
+  from {
+    clip-path: inset(0 0 100% 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.horizon-settle {
+  animation: horizon-settle 700ms var(--ease-out-expo) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .horizon-settle {
+    animation: none;
+  }
+}

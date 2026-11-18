@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-18T00:00:00Z",
+  "title": "Design System: Canoabo",
+  "extensions": {
+    "colorMeta": {
+      "humus": { "role": "primary", "displayName": "Humus", "canonical": "#2a1e16", "tonalRamp": ["#1c1612", "#211914", "#261c15", "#433931", "#766e68", "#aaa49e", "#d2cfca", "#f6f4f0"] },
+      "humus-raised": { "role": "primary", "displayName": "Humus alzado", "canonical": "#3a2a1f", "tonalRamp": ["#211a15", "#2b2019", "#34261d", "#514339", "#80766d", "#b0a8a2", "#d5d1cb", "#f6f4f0"] },
+      "on-humus": { "role": "neutral", "displayName": "Texto sobre humus", "canonical": "#efe9df", "tonalRamp": ["#615d58", "#96928b", "#cbc6bd", "#f0eae1", "#f2ede5", "#f3f0ea", "#f5f2ed", "#f6f4f0"] },
+      "on-humus-soft": { "role": "neutral", "displayName": "Texto suave sobre humus", "canonical": "#c9bcab", "tonalRamp": ["#534e46", "#7f776c", "#aca092", "#cfc3b4", "#dad1c5", "#e5dfd6", "#eeeae4", "#f6f4f0"] },
+      "ochre": { "role": "secondary", "displayName": "Ocre", "canonical": "#b5772e", "tonalRamp": ["#4c351a", "#744e22", "#9b6729", "#bd8746", "#cda677", "#dec5a7", "#ebdece", "#f6f4f0"] },
+      "ochre-wash": { "role": "secondary", "displayName": "Lavado ocre", "canonical": "#efe3cf", "tonalRamp": ["#615b53", "#968e81", "#cbc1b0", "#f0e5d3", "#f2e9db", "#f3eee4", "#f5f1ea", "#f6f4f0"] },
+      "oxide": { "role": "tertiary", "displayName": "Óxido", "canonical": "#9c3b22", "tonalRamp": ["#442016", "#652a1b", "#86341f", "#a7523c", "#be806f", "#d4afa3", "#e6d4cc", "#f6f4f0"] },
+      "gley": { "role": "neutral", "displayName": "Gley", "canonical": "#dce1da", "tonalRamp": ["#5a5a57", "#8b8d88", "#bcbfb9", "#dfe3dd", "#e6e8e2", "#ecede8", "#f1f1ec", "#f6f4f0"] },
+      "gley-rule": { "role": "neutral", "displayName": "Regla gley", "canonical": "#c6cdc3", "tonalRamp": ["#52534f", "#7e817a", "#a9afa6", "#ccd2c9", "#d8dcd4", "#e4e5df", "#eeede8", "#f6f4f0"] },
+      "gley-line": { "role": "neutral", "displayName": "Línea gley", "canonical": "#b9c1b6", "tonalRamp": ["#4e4f4a", "#767a73", "#9ea59b", "#c1c7bd", "#d0d4cc", "#dfe1da", "#ebebe6", "#f6f4f0"] },
+      "paper": { "role": "neutral", "displayName": "Papel", "canonical": "#f4f6f2", "tonalRamp": ["#62625f", "#999996", "#d0d1cd", "#f4f6f2", "#f5f5f1", "#f5f5f1", "#f6f4f0", "#f6f4f0"] },
+      "ink": { "role": "neutral", "displayName": "Tinta", "canonical": "#1c1a17", "tonalRamp": ["#171512", "#191714", "#1b1916", "#373532", "#6e6c68", "#a4a29f", "#d0ceca", "#f6f4f0"] },
+      "ink-soft": { "role": "neutral", "displayName": "Tinta suave", "canonical": "#4b4a43", "tonalRamp": ["#272622", "#35332e", "#42413b", "#605f59", "#8b8a84", "#b6b4af", "#d8d6d2", "#f6f4f0"] },
+      "clase-i": { "role": "data", "displayName": "Clase I · verde claro", "canonical": "#9ccf6f", "tonalRamp": ["#445431", "#658248", "#86b060", "#a7d47f", "#bedd9f", "#d4e6c0", "#e6eed9", "#f6f4f0"] },
+      "clase-ii": { "role": "data", "displayName": "Clase II · amarillo", "canonical": "#f0cf3a", "tonalRamp": ["#61541f", "#978229", "#ccb033", "#f1d451", "#f2dd7e", "#f4e6ac", "#f5eed0", "#f6f4f0"] },
+      "clase-iii": { "role": "data", "displayName": "Clase III · rojo", "canonical": "#d4473a", "tonalRamp": ["#57251f", "#863129", "#b53e33", "#d85d51", "#e1887e", "#e9b3ac", "#f0d6d0", "#f6f4f0"] },
+      "clase-iv": { "role": "data", "displayName": "Clase IV · azul", "canonical": "#3f7cc0", "tonalRamp": ["#23374e", "#2e5178", "#386ba3", "#568bc6", "#84a9d2", "#b1c7de", "#d6dfe8", "#f6f4f0"] },
+      "clase-v": { "role": "data", "displayName": "Clase V · verde oscuro", "canonical": "#2e6a3a", "tonalRamp": ["#1d311f", "#234629", "#2a5c33", "#477b51", "#799e7e", "#abc0ac", "#d3dcd0", "#f6f4f0"] },
+      "clase-vi": { "role": "data", "displayName": "Clase VI · naranja", "canonical": "#e3862d", "tonalRamp": ["#5c3b1a", "#8f5721", "#c17328", "#e59445", "#eaaf76", "#efcba7", "#f3e1ce", "#f6f4f0"] },
+      "clase-vii": { "role": "data", "displayName": "Clase VII · marrón", "canonical": "#85573a", "tonalRamp": ["#3c2a1f", "#573b29", "#734c33", "#936b51", "#af927e", "#ccb9ac", "#e2d9d0", "#f6f4f0"] },
+      "clase-viii": { "role": "data", "displayName": "Clase VIII · violeta", "canonical": "#7a4e9a", "tonalRamp": ["#382740", "#513662", "#694484", "#8963a5", "#a88cba", "#c8b6d0", "#e0d7e1", "#f6f4f0"] },
+      "embalse": { "role": "data", "displayName": "Embalse", "canonical": "#3a5fd0", "tonalRamp": ["#212d53", "#2b4082", "#3452b1", "#5172d4", "#8097dc", "#b0bce4", "#d5daea", "#f6f4f0"] },
+      "red-hidrica": { "role": "data", "displayName": "Red hídrica", "canonical": "#1f3a7a", "tonalRamp": ["#182035", "#1b2a4f", "#1d3469", "#3a5189", "#7080a6", "#a5aec4", "#d0d3db", "#f6f4f0"] },
+      "horizonte-palido": { "role": "data", "displayName": "Horizonte pálido (extremo sin MO de la rampa de horizontes, hacia humus)", "canonical": "#d9c4a0", "tonalRamp": ["#d9c4a0", "#c0aa88", "#a69070", "#8c7658", "#735c40", "#5a4228", "#412d1e", "#2a1e16"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Nombre del elemento seleccionado en la ficha." },
+      "headline": { "displayName": "Headline", "purpose": "«Canoabo» en la barra húmica." },
+      "title": { "displayName": "Title", "purpose": "Títulos de sección del panel; nombres de capa a 600." },
+      "rung": { "displayName": "Numeral de peldaño", "purpose": "Numeral romano de cada clase en la escalera." },
+      "body": { "displayName": "Body", "purpose": "Descripciones, valores y etiquetas de atributos, controles." },
+      "label": { "displayName": "Label", "purpose": "Estados de carga y error, pH y MO del monolito, ayudas." },
+      "caption": { "displayName": "Caption", "purpose": "Notas de fuente y leyenda del monolito." }
+    },
+    "shadows": [
+      { "name": "flotante", "value": "0 1px 3px rgb(28 26 23 / 0.18)", "purpose": "Controles que flotan sobre el mapa (selector de mapa base, zoom, controles de MapLibre)." },
+      { "name": "hoja", "value": "0 -6px 24px rgb(28 26 23 / 0.18)", "purpose": "Hojas inferiores en móvil; ninguna en escritorio." },
+      { "name": "perilla", "value": "0 1px 2px rgb(28 26 23 / 0.35)", "purpose": "Perilla del interruptor." },
+      { "name": "anillo-foco", "value": "inset 0 0 0 2px #b5772e", "purpose": "Peldaño enfocado de la escalera (estado, no elevación)." }
+    ],
+    "motion": [
+      { "name": "ease-out-expo", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Curva de todas las transiciones de estado y del depósito de horizontes." },
+      { "name": "horizon-settle", "value": "clip-path inset(0 0 100% 0) → inset(0) en 700ms ease-out-expo", "purpose": "Único momento de movimiento: las bandas del monolito se depositan de arriba abajo al cambiar de perfil. Desactivado con prefers-reduced-motion." },
+      { "name": "state-fast", "value": "150ms", "purpose": "Fondo de peldaños y segmentos al pasar el puntero o seleccionar." },
+      { "name": "state-switch", "value": "200ms ease-out-expo", "purpose": "Color y posición del interruptor." },
+      { "name": "map-reveal", "value": "500ms", "purpose": "Recentrado del mapa para mostrar un punto sobre la hoja móvil." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "lg", "value": "1024px" }
+    ],
+    "mapStyle": {
+      "capabilityFillOpacity": 0.72,
+      "capabilityOutline": "rgba(28, 26, 23, 0.35), 0.5px",
+      "embalseOpacity": 0.9,
+      "riverWidthOpacity": "1px, 0.7, interpolado por zoom (×0.45 a z11, ×1 a z14, ×2.2 a z17)",
+      "roads": "#ffffff 1.5px sobre forro rgba(28, 26, 23, 0.75) de 2px extra",
+      "profilePoints": "óxido, radio 6, borde on-humus de 1px",
+      "selectionPolygon": "ocre 3px sobre halo de tinta 5px",
+      "selectionLine": "ocre, +3px",
+      "selectionPoint": "anillo ocre 4px, radio +4",
+      "focusVeil": "clase enfocada a su opacidad; resto de la capa a 0.12; demás capas a 0.24",
+      "ground": "gley; mapa base claro a 0.3, relieve a 0.85, satélite a 1",
+      "horizonTone": "rgb interpolado de #d9c4a0 a #2a1e16 según MO/6 %, sin dato #c6cdc3; texto claro desde 0.45"
+    }
+  },
+  "components": [
+    {
+      "name": "Barra superior",
+      "kind": "nav",
+      "refersTo": "topbar",
+      "description": "Masa húmica de 56 px con el nombre del visor y la cuenca; en móvil, botón Capas.",
+      "html": "<header class=\"ds-topbar\"><h1 class=\"ds-topbar-title\">Canoabo</h1><p class=\"ds-topbar-sub\">Cuenca del río Canoabo · Carabobo</p><button type=\"button\" class=\"ds-topbar-btn\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z\"/><path d=\"m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65\"/><path d=\"m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65\"/></svg>Capas</button></header>",
+      "css": ".ds-topbar { display: flex; align-items: center; gap: 16px; height: 56px; padding: 0 24px; background: var(--color-humus, #2a1e16); color: var(--color-on-humus, #efe9df); font-family: 'Atkinson Hyperlegible Next Variable', system-ui, sans-serif; } .ds-topbar-title { margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -0.01em; } .ds-topbar-sub { margin: 0; font-size: 14px; color: var(--color-on-humus-soft, #c9bcab); } .ds-topbar-btn { margin-left: auto; display: flex; align-items: center; gap: 8px; min-height: 40px; padding: 0 12px; border: 0; border-radius: 6px; background: var(--color-humus-raised, #3a2a1f); color: inherit; font: 600 14px 'Atkinson Hyperlegible Next Variable', system-ui, sans-serif; cursor: pointer; } .ds-topbar-btn:focus-visible { outline: 2px solid var(--color-ochre, #b5772e); outline-offset: 2px; }"
+    },
+    {
+      "name": "Interruptor de capa",
+      "kind": "custom",
+      "refersTo": "switch-on",
+      "description": "Píldora de 40×24 px; humus encendido, línea gley apagado.",
+      "html": "<div class=\"ds-switch-row\"><button type=\"button\" role=\"switch\" aria-checked=\"true\" class=\"ds-switch ds-switch-on\" aria-label=\"Mostrar capa\"><span class=\"ds-switch-knob\"></span></button><button type=\"button\" role=\"switch\" aria-checked=\"false\" class=\"ds-switch\" aria-label=\"Mostrar capa\"><span class=\"ds-switch-knob\"></span></button></div>",
+      "css": ".ds-switch-row { display: flex; gap: 12px; } .ds-switch { position: relative; width: 40px; height: 24px; border: 0; padding: 0; border-radius: 9999px; background: var(--color-gley-line, #b9c1b6); cursor: pointer; transition: background-color 200ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-switch-on { background: var(--color-humus, #2a1e16); } .ds-switch-knob { position: absolute; top: 4px; left: 4px; width: 16px; height: 16px; border-radius: 9999px; background: var(--color-on-humus, #efe9df); box-shadow: 0 1px 2px rgb(28 26 23 / 0.35); transition: left 200ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-switch-on .ds-switch-knob { left: 20px; } .ds-switch:focus-visible { outline: 2px solid var(--color-ochre, #b5772e); outline-offset: 2px; } .ds-switch:disabled { opacity: 0.5; cursor: not-allowed; }"
+    },
+    {
+      "name": "Selector de mapa base",
+      "kind": "chip",
+      "refersTo": "basemap-segment",
+      "description": "Grupo segmentado flotante sobre el mapa; el seleccionado es humus.",
+      "html": "<div role=\"radiogroup\" aria-label=\"Mapa base\" class=\"ds-seg\"><button type=\"button\" role=\"radio\" aria-checked=\"true\" class=\"ds-seg-item ds-seg-on\">Claro</button><button type=\"button\" role=\"radio\" aria-checked=\"false\" class=\"ds-seg-item\">Relieve</button><button type=\"button\" role=\"radio\" aria-checked=\"false\" class=\"ds-seg-item\">Satélite</button></div>",
+      "css": ".ds-seg { display: inline-flex; padding: 2px; border: 1px solid var(--color-gley-line, #b9c1b6); border-radius: 6px; background: var(--color-paper, #f4f6f2); box-shadow: 0 1px 3px rgb(28 26 23 / 0.18); } .ds-seg-item { min-height: 36px; padding: 0 12px; border: 0; border-radius: 5px; background: transparent; color: var(--color-ink, #1c1a17); font: 400 14px 'Atkinson Hyperlegible Next Variable', system-ui, sans-serif; cursor: pointer; transition: background-color 150ms, color 150ms; } .ds-seg-item:hover { background: var(--color-gley, #dce1da); } .ds-seg-on, .ds-seg-on:hover { background: var(--color-humus, #2a1e16); color: var(--color-on-humus, #efe9df); } .ds-seg-item:focus-visible { outline: 2px solid var(--color-ochre, #b5772e); outline-offset: 2px; }"
+    },
+    {
+      "name": "Controles del mapa",
+      "kind": "button",
+      "refersTo": "map-control",
+      "description": "Columna de botones de 40 px sobre papel: acercar, alejar, ver toda la cuenca.",
+      "html": "<div role=\"group\" aria-label=\"Navegación del mapa\" class=\"ds-mapctl\"><button type=\"button\" class=\"ds-mapctl-btn\" aria-label=\"Acercar\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"M12 5v14\"/></svg></button><button type=\"button\" class=\"ds-mapctl-btn\" aria-label=\"Alejar\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/></svg></button></div>",
+      "css": ".ds-mapctl { display: inline-flex; flex-direction: column; overflow: hidden; border: 1px solid var(--color-gley-line, #b9c1b6); border-radius: 6px; background: var(--color-paper, #f4f6f2); box-shadow: 0 1px 3px rgb(28 26 23 / 0.18); } .ds-mapctl-btn { display: grid; place-items: center; width: 40px; height: 40px; border: 0; border-bottom: 1px solid var(--color-gley-rule, #c6cdc3); background: transparent; color: var(--color-ink, #1c1a17); cursor: pointer; } .ds-mapctl-btn:last-child { border-bottom: 0; } .ds-mapctl-btn:hover { background: var(--color-gley, #dce1da); } .ds-mapctl-btn:focus-visible { outline: 2px solid var(--color-ochre, #b5772e); outline-offset: -2px; }"
+    },
+    {
+      "name": "Escalera de capacidad de uso",
+      "kind": "custom",
+      "refersTo": "capability-rung",
+      "description": "Firma: peldaños I→VIII con barra de color a sangre, numeral, descripción y % de superficie; el enfocado toma lavado y anillo ocre.",
+      "html": "<ol class=\"ds-ladder\"><li><button type=\"button\" class=\"ds-rung\" aria-pressed=\"false\"><span class=\"ds-rung-bar\" style=\"background:#9ccf6f\"></span><span class=\"ds-rung-num\">I</span><span class=\"ds-rung-desc\">Limitaciones ligeras</span><span class=\"ds-rung-share\">3,5 %</span></button></li><li><button type=\"button\" class=\"ds-rung\" aria-pressed=\"false\"><span class=\"ds-rung-bar\" style=\"background:#2e6a3a\"></span><span class=\"ds-rung-num\">V</span><span class=\"ds-rung-desc\">Uso restringido, sin laboreo</span><span class=\"ds-rung-share\">29,2 %</span></button></li><li><button type=\"button\" class=\"ds-rung ds-rung-on\" aria-pressed=\"true\"><span class=\"ds-rung-bar\" style=\"background:#e3862d\"></span><span class=\"ds-rung-num\">VI</span><span class=\"ds-rung-desc\">Pastos y bosque</span><span class=\"ds-rung-share\">34,8 %</span></button></li><li><button type=\"button\" class=\"ds-rung\" aria-pressed=\"false\"><span class=\"ds-rung-bar\" style=\"background:#7a4e9a\"></span><span class=\"ds-rung-num\">VIII</span><span class=\"ds-rung-desc\">Protección</span><span class=\"ds-rung-share\">8,6 %</span></button></li></ol>",
+      "css": ".ds-ladder { list-style: none; margin: 0; padding: 0; width: 300px; overflow: hidden; border: 1px solid var(--color-gley-line, #b9c1b6); border-radius: 6px; background: var(--color-paper, #f4f6f2); font-family: 'Atkinson Hyperlegible Next Variable', system-ui, sans-serif; font-variant-numeric: tabular-nums; } .ds-ladder li { border-bottom: 1px solid var(--color-gley-rule, #c6cdc3); } .ds-ladder li:last-child { border-bottom: 0; } .ds-rung { display: grid; grid-template-columns: 1.75rem 3.75rem 1fr auto; align-items: stretch; width: 100%; min-height: 44px; padding: 0; border: 0; background: transparent; color: var(--color-ink, #1c1a17); text-align: left; cursor: pointer; transition: background-color 150ms; } .ds-rung:hover { background: rgb(220 225 218 / 0.6); } .ds-rung-on, .ds-rung-on:hover { background: var(--color-ochre-wash, #efe3cf); box-shadow: inset 0 0 0 2px var(--color-ochre, #b5772e); } .ds-rung:focus-visible { outline: 2px solid var(--color-ochre, #b5772e); outline-offset: -2px; } .ds-rung-bar { display: block; } .ds-rung-num { align-self: center; padding-left: 12px; font-size: 17px; font-weight: 800; letter-spacing: -0.025em; } .ds-rung-desc { align-self: center; padding: 8px 0; font-size: 14px; line-height: 1.375; } .ds-rung-share { align-self: center; padding: 0 12px 0 8px; text-align: right; font-size: 14px; color: var(--color-ink-soft, #4b4a43); }"
+    },
+    {
+      "name": "Monolito de perfil",
+      "kind": "custom",
+      "refersTo": "feature-sheet",
+      "description": "Firma: horizontes a escala de profundidad, tono por materia orgánica, último horizonte abierto, valores al costado.",
+      "html": "<figure class=\"ds-mono\"><div class=\"ds-mono-col\" role=\"img\" aria-label=\"Perfil de 3 horizontes, más de 30 cm\"><div class=\"ds-mono-band\" style=\"top:0;height:72px;background:rgb(67 52 41);color:#efe9df\">H1</div><div class=\"ds-mono-band\" style=\"top:72px;height:108px;background:rgb(157 138 110)\">H2</div><div class=\"ds-mono-band ds-mono-open\" style=\"top:180px;height:120px\"><span class=\"ds-mono-fill\" style=\"background:rgb(191 171 140)\"></span><span class=\"ds-mono-lbl\">H3</span></div></div><dl class=\"ds-mono-rows\"><div style=\"top:0\"><dt><span>H1 · 0–12 cm</span><span>FAa</span></dt><dd><span>pH 5,87</span><span>MO 4,74 %</span></dd></div><div style=\"top:72px\"><dt><span>H2 · 12–30 cm</span><span>FA</span></dt><dd><span>pH 4,94</span><span>MO 1,81 %</span></dd></div><div style=\"top:180px\"><dt><span>H3 · &gt; 30 cm</span><span>A</span></dt><dd><span>pH 4,66</span><span>MO 0,99 %</span></dd></div></dl></figure>",
+      "css": ".ds-mono { display: grid; grid-template-columns: 4.5rem 1fr; column-gap: 16px; width: 330px; height: 300px; margin: 0; font-family: 'Atkinson Hyperlegible Next Variable', system-ui, sans-serif; font-variant-numeric: tabular-nums; color: var(--color-ink, #1c1a17); } .ds-mono-col { position: relative; height: 300px; overflow: hidden; border: 2px solid var(--color-ink, #1c1a17); border-bottom: 0; border-radius: 3px 3px 0 0; animation: ds-settle 700ms cubic-bezier(0.16, 1, 0.3, 1) both; } .ds-mono-band { position: absolute; left: 0; right: 0; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 4px; border-bottom: 1px solid rgb(28 26 23 / 0.4); font-size: 13px; font-weight: 700; } .ds-mono-open { border-bottom: 0; } .ds-mono-fill { position: absolute; inset: 0; -webkit-mask-image: linear-gradient(to bottom, #000 45%, transparent); mask-image: linear-gradient(to bottom, #000 45%, transparent); } .ds-mono-lbl { position: relative; } .ds-mono-rows { position: relative; margin: 0; } .ds-mono-rows > div { position: absolute; left: 0; right: 0; padding-top: 6px; border-top: 1px solid var(--color-gley-line, #b9c1b6); } .ds-mono-rows dt, .ds-mono-rows dd { display: flex; justify-content: space-between; gap: 8px; margin: 0; } .ds-mono-rows dt { font-size: 14px; font-weight: 600; } .ds-mono-rows dd { font-size: 13px; color: var(--color-ink-soft, #4b4a43); } @keyframes ds-settle { from { clip-path: inset(0 0 100% 0); } to { clip-path: inset(0 0 0 0); } } @media (prefers-reduced-motion: reduce) { .ds-mono-col { animation: none; } }"
+    },
+    {
+      "name": "Lista de atributos",
+      "kind": "card",
+      "refersTo": "feature-sheet",
+      "description": "Etiqueta a la izquierda, valor en 600 a la derecha con su unidad; muestra de clase junto al código.",
+      "html": "<dl class=\"ds-attrs\"><dt>Capacidad de uso</dt><dd><span class=\"ds-swatch\" style=\"background:#2e6a3a\"></span>VTp</dd><dt>Altitud</dt><dd>760 m s. n. m.</dd><dt>Pendiente</dt><dd>35 %</dd><dt>Profundidad</dt><dd>s/d</dd></dl>",
+      "css": ".ds-attrs { display: grid; grid-template-columns: minmax(0, 1fr) auto; width: 330px; margin: 0; border-top: 2px solid var(--color-ink, #1c1a17); background: var(--color-paper, #f4f6f2); font-family: 'Atkinson Hyperlegible Next Variable', system-ui, sans-serif; font-variant-numeric: tabular-nums; font-size: 14px; } .ds-attrs dt { padding: 8px 12px 8px 0; border-bottom: 1px solid var(--color-gley-rule, #c6cdc3); color: var(--color-ink-soft, #4b4a43); } .ds-attrs dd { display: flex; align-items: center; justify-content: flex-end; gap: 8px; margin: 0; padding: 8px 0; border-bottom: 1px solid var(--color-gley-rule, #c6cdc3); font-weight: 600; text-align: right; color: var(--color-ink, #1c1a17); } .ds-swatch { display: inline-block; width: 24px; height: 16px; border: 1px solid rgb(28 26 23 / 0.3); border-radius: 2px; }"
+    },
+    {
+      "name": "Fila de capa",
+      "kind": "custom",
+      "refersTo": "switch-off",
+      "description": "Símbolo de la capa, nombre, estado de carga o error en óxido, interruptor.",
+      "html": "<ul class=\"ds-layers\"><li><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><circle cx=\"10\" cy=\"10\" r=\"6\" fill=\"#9c3b22\" stroke=\"#1c1a17\" stroke-width=\"1.5\"/></svg><div class=\"ds-layer-txt\"><p class=\"ds-layer-name\">Perfiles de suelo</p></div><span class=\"ds-mini-switch ds-mini-on\"></span></li><li><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><rect x=\"2\" y=\"3\" width=\"16\" height=\"14\" rx=\"2\" fill=\"#3a5fd0\" stroke=\"#1c1a17\"/></svg><div class=\"ds-layer-txt\"><p class=\"ds-layer-name\">Embalse</p><p class=\"ds-layer-err\">No se pudo cargar. Recarga la página.</p></div><span class=\"ds-mini-switch\"></span></li></ul>",
+      "css": ".ds-layers { list-style: none; margin: 0; padding: 0; width: 300px; background: var(--color-gley, #dce1da); font-family: 'Atkinson Hyperlegible Next Variable', system-ui, sans-serif; color: var(--color-ink, #1c1a17); } .ds-layers li { display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--color-gley-rule, #c6cdc3); } .ds-layer-txt { flex: 1; min-width: 0; } .ds-layer-name { margin: 0; font-size: 15px; font-weight: 600; line-height: 1.25; } .ds-layer-err { margin: 2px 0 0; font-size: 13px; color: var(--color-oxide, #9c3b22); } .ds-mini-switch { position: relative; width: 40px; height: 24px; border-radius: 9999px; background: var(--color-gley-line, #b9c1b6); } .ds-mini-switch::after { content: ''; position: absolute; top: 4px; left: 4px; width: 16px; height: 16px; border-radius: 9999px; background: var(--color-on-humus, #efe9df); } .ds-mini-on { background: var(--color-humus, #2a1e16); } .ds-mini-on::after { left: 20px; }"
+    },
+    {
+      "name": "Aviso de ejemplo",
+      "kind": "card",
+      "refersTo": "notice-example",
+      "description": "Aviso informativo en lavado ocre, sin borde lateral.",
+      "html": "<p class=\"ds-notice\">Perfil de ejemplo, marcado en ocre en el mapa. Toca otro perfil o una unidad de suelo para ver sus datos.</p>",
+      "css": ".ds-notice { max-width: 330px; margin: 0; padding: 10px 12px; border-radius: 6px; background: var(--color-ochre-wash, #efe3cf); color: var(--color-ink, #1c1a17); font: 400 14px/1.375 'Atkinson Hyperlegible Next Variable', system-ui, sans-serif; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Perfil de suelo",
+    "overview": "El visor trata cada lugar de la cuenca como un corte de suelo: horizontes apilados, a escala, con sus valores al costado. El chrome es tierra y agua freática: una barra superior húmica casi negra, paneles color gley (el gris verdoso de un horizonte reducido) y tinta cálida. Todo el color saturado está en el mapa y en los datos; la interfaz se limita a enmarcarlos y a señalar el estado con ocre.\n\nLa densidad es de herramienta de consulta: tres columnas fijas en escritorio (capas y escalera, mapa, ficha), filas de 44 px como mínimo, cifras tabulares alineadas a la derecha con su unidad. Una sola familia tipográfica, Atkinson Hyperlegible Next, sostiene toda la jerarquía por peso y tamaño. Los rellenos son planos; no hay degradados decorativos, ni brillos, ni cristal.\n\nRechazo confirmado: el geoportal estándar de panel blanco con acento azul y ficha flotante genérica.",
+    "keyCharacteristics": [
+      "Color confinado: el chrome es humus, gley, papel y tinta; los colores vivos pertenecen a las clases de capacidad de uso y a las capas.",
+      "Ocre como única señal de estado (activo, selección, foco, cursor).",
+      "El monolito de perfil dibuja cada horizonte con altura proporcional a su profundidad en cm.",
+      "La escalera I → VIII enfoca una clase y vela el resto del mapa.",
+      "Rellenos planos; profundidad mínima, solo para lo que flota sobre el mapa."
+    ],
+    "rules": [
+      { "name": "The Color Confinado Rule", "body": "El color saturado solo aparece en el mapa, en la barra de muestra de cada peldaño, en el símbolo de cada capa y en las muestras junto a un código de clase. Ningún botón, título ni fondo de la interfaz usa un color de datos.", "section": "colors" },
+      { "name": "The One Signal Rule", "body": "El ocre es la única señal de estado. Si algo está activo, enfocado o seleccionado, es ocre; nada más compite con él.", "section": "colors" },
+      { "name": "The Código ↔ Lugar Rule", "body": "Todo código de capacidad de uso que aparece en la ficha lleva al lado su muestra de 24×16 px con el color del peldaño, para que el texto remita al lugar del mapa.", "section": "colors" },
+      { "name": "The Cifra a la Derecha Rule", "body": "Las cifras van tabulares, alineadas a la derecha y con su unidad («760 m s. n. m.», «MO 4,74 %», «34,8 %»), en formato es-VE. Un dato ausente se escribe «s/d» o «—», nunca se omite la fila.", "section": "typography" },
+      { "name": "The Sin Antetítulo Rule", "body": "Ningún título lleva antetítulo, etiqueta en versalitas ni texto en mayúsculas espaciadas encima. El título es el nombre de la cosa.", "section": "typography" },
+      { "name": "The Plano Sobre Gley Rule", "body": "Paneles, ficha, escalera y filas no llevan sombra. Si un contenedor no flota sobre el mapa, su borde es una línea gley y nada más.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do dejar el color saturado al mapa y a los datos; la interfaz usa humus, gley, papel y tinta.",
+      "Do usar ocre (#b5772e) para todo estado activo, foco y selección, y solo para eso.",
+      "Do dibujar las clases de capacidad de uso con la convención I verde claro, II amarillo, III rojo, IV azul, V verde oscuro, VI naranja, VII marrón, VIII violeta, en orden de limitación.",
+      "Do dibujar los horizontes a escala real de profundidad y marcar como abierto el que no tiene límite inferior.",
+      "Do alinear las cifras a la derecha, tabulares y con su unidad; escribir «s/d» cuando falta el dato.",
+      "Do acompañar cada código de clase con su muestra de color.",
+      "Do mantener objetivos táctiles de 40–44 px y prefers-reduced-motion respetado."
+    ],
+    "donts": [
+      "Don't usar el geoportal estándar de panel blanco con acento azul y ficha flotante genérica.",
+      "Don't usar degradados decorativos, cristal ni brillos; los rellenos son planos. El único desvanecido permitido es el del horizonte abierto, que codifica un dato.",
+      "Don't poner antetítulos, etiquetas en mayúsculas espaciadas ni texto sobre el título.",
+      "Don't usar bordes laterales de acento en tarjetas o avisos; el estado se marca con lavado y anillo ocre. La barra de color del peldaño es una celda de dato, no un borde.",
+      "Don't dar sombra a paneles, filas ni a la ficha en escritorio; solo flota lo que está sobre el mapa.",
+      "Don't colorear títulos, botones o fondos con colores de clase."
+    ]
+  }
+}

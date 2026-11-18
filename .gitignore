@@ -1,0 +1,7 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.impeccable/config.local.json
+.claude/settings.local.json
+.DS_Store
